@@ -29,3 +29,65 @@ footer{
     padding:20px;
     background:#1e1e1e;
 }
+
+
+/* In style.css */
+
+/* Body dark theme */
+body {
+    background-color: #111; /* very dark gray / black */
+    color: #f1f1f1;        /* light text for contrast */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header & nav */
+header {
+    background-color: #000; /* black header */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #fff;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover,
+nav a.active {
+    color: #ffcc00; /* highlight active page */
+}
+
+/* Main content spacing */
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Sections spacing */
+section {
+    margin-bottom: 40px;
+}
+
+/* Images styling */
+section img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
