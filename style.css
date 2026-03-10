@@ -1,45 +1,42 @@
-body{
+/* Body and basic layout */
+body {
     font-family: Arial, sans-serif;
-    margin:0;
-    background:#111;
-    color:white;
+    margin: 0;
+    background: #111;
+    color: white;
 }
 
-header{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:20px;
-    background:#1e1e1e;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #1e1e1e;
 }
 
-nav a{
-    color:white;
-    text-decoration:none;
-    margin-left:20px;
-}
-
+/* Navigation links */
 nav a {
-    color: #fff;
+    color: white; /* default color */
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
+    transition: color 0.3s; /* smooth color change */
 }
 
+/* Hover and active link */
 nav a:hover,
 nav a.active {
-    color: #ffcc00; /* highlight active page */
+    color: #ffcc00; /* yellow highlight */
 }
 
-.hero{
-    text-align:center;
-    padding:120px 20px;
+/* Hero and footer */
+.hero {
+    text-align: center;
+    padding: 120px 20px;
 }
 
-footer{
-    text-align:center;
-    padding:20px;
-    background:#1e1e1e;
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1e1e1e;
 }
-
-
