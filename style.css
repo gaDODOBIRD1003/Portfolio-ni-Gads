@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background:#111;
+    color:white;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+    background:#1e1e1e;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+}
+
+.hero{
+    text-align:center;
+    padding:120px 20px;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#1e1e1e;
+}
