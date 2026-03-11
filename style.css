@@ -49,7 +49,7 @@ nav a {
 /* Hover and active link */
 nav a:hover,
 nav a.active {
-    color: #ffcc00; /* yellow highlight */
+    color: purple; /* purple highlight */
 }
 
 /* Hero and footer */
