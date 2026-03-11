@@ -135,45 +135,12 @@ nav {
     justify-content: center;
     margin-top: 20px;
 }
-/* Mobile navigation: hide by default and show via toggle */
-#navToggle {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    background: transparent;
-    border: none;
-    color: white;
-    font-size: 20px;
-    padding: 8px;
-    cursor: pointer;
-}
-
-#mainNav {
-    display: none; /* hidden on small screens, shown when .open is added */
-    flex-direction: column;
-    gap: 8px;
-}
-
-#mainNav.open {
-    display: flex;
-}
-
-@media (min-width: 641px) {
-    #navToggle { display: none; }
-    #mainNav { display: flex !important; flex-direction: row; gap: 20px; }
-}
 /* Skills section */
 
 .skills{
     padding:80px 20px;
     text-align:center;
 }
-    .skills{
-        max-width: 900px;
-        margin: 0 auto;
-        padding: 80px 20px;
-        text-align: left; /* left-align headings and text */
-    }
 
 /* About page layout */
 .about-page {
@@ -212,20 +179,6 @@ nav {
     flex-wrap:wrap;
     margin-top:30px;
 }
-    .skills-container{
-        display:flex;
-        justify-content:flex-start; /* align cards to the left on wider screens */
-        gap:20px;
-        flex-wrap:wrap;
-        margin-top:30px;
-    }
-
-    /* Keep skill cards centered on small screens */
-    @media (max-width: 640px) {
-        .skills-container {
-            justify-content: center;
-        }
-    }
 
 .skill-card{
     background:#1e1e1e;
