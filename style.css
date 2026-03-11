@@ -192,3 +192,8 @@ nav {
 .skill-card:hover{
     transform:translateY(-5px);
 }
+
+.rand-gif{
+    display:flex ;
+    justify-content:center ;
+}
