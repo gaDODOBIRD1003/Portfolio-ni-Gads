@@ -196,4 +196,5 @@ nav {
 .rand-gif{
     display:flex ;
     justify-content:center ;
+    padding: 20%;
 }
