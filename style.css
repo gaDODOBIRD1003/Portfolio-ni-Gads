@@ -142,6 +142,28 @@ nav {
     text-align:center;
 }
 
+/* About page layout */
+.about-page {
+    max-width:900px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    text-align: center; /* center headings and paragraphs by default */
+}
+
+.about-page h2 {
+    margin-top: 0;
+}
+
+.about-page ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.about-page li {
+    margin: 0.5rem 0;
+}
+
 .skills-container{
     display:flex;
     justify-content:center;
