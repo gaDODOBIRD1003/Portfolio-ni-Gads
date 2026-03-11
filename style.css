@@ -197,4 +197,6 @@ nav {
     display:flex ;
     justify-content:center ;
     padding: 20%;
+    width:fit-content;
+    height: auto;
 }
