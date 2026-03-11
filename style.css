@@ -21,8 +21,9 @@ header {
 }
 .profile-photo {
     width: 180px;
+    height: 180px; /* fixed square so object-fit works */
     max-width: 40%;
-    height: auto;
+    object-fit: cover; /* prevents squashing */
     border-radius: 50%;
     display: block;
     margin: 0.5rem auto;
@@ -34,7 +35,7 @@ header {
     margin-top: 0.25rem;
 }
 @media (max-width: 420px) {
-    .profile-photo { width: 140px; max-width: 60%; }
+    .profile-photo { width: 140px; height: 140px; max-width: 60%; }
 }
 
 /* Social media links (icons) */
