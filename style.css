@@ -170,6 +170,14 @@ nav {
     margin: 0.5rem 0;
 }
 
+/* On the About page we want the Skills section to be centered like other sections */
+.about-page .skills {
+    text-align: center;
+}
+.about-page .skills-container {
+    justify-content: center;
+}
+
 .skills-container{
     display:flex;
     justify-content:center;
