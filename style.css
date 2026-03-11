@@ -141,6 +141,12 @@ nav {
     padding:80px 20px;
     text-align:center;
 }
+    .skills{
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 80px 20px;
+        text-align: left; /* left-align headings and text */
+    }
 
 /* About page layout */
 .about-page {
@@ -171,6 +177,20 @@ nav {
     flex-wrap:wrap;
     margin-top:30px;
 }
+    .skills-container{
+        display:flex;
+        justify-content:flex-start; /* align cards to the left on wider screens */
+        gap:20px;
+        flex-wrap:wrap;
+        margin-top:30px;
+    }
+
+    /* Keep skill cards centered on small screens */
+    @media (max-width: 640px) {
+        .skills-container {
+            justify-content: center;
+        }
+    }
 
 .skill-card{
     background:#1e1e1e;
