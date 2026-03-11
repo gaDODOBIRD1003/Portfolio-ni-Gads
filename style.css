@@ -135,6 +135,33 @@ nav {
     justify-content: center;
     margin-top: 20px;
 }
+/* Mobile navigation: hide by default and show via toggle */
+#navToggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+#mainNav {
+    display: none; /* hidden on small screens, shown when .open is added */
+    flex-direction: column;
+    gap: 8px;
+}
+
+#mainNav.open {
+    display: flex;
+}
+
+@media (min-width: 641px) {
+    #navToggle { display: none; }
+    #mainNav { display: flex !important; flex-direction: row; gap: 20px; }
+}
 /* Skills section */
 
 .skills{
