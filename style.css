@@ -42,7 +42,7 @@ header {
 .social-links {
     display: flex;
     gap: 1rem;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     flex-wrap: wrap;
     margin-top: 0.5rem;
