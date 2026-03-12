@@ -56,13 +56,14 @@ header {
     padding: .25rem .5rem;
     border-radius: 6px;
     transition: color .2s, background .2s;
-    justify-content: left;
+    
 }
 .social-icon {
     width: 20px;
     height: 20px;
     fill: currentColor; /* icon color follows link color */
     display: inline-block;
+    justify-content: left
 }
 .social-links a:hover,
 .social-links a:focus {
